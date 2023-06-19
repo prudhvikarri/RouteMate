@@ -1,0 +1,49 @@
+.bg-img {
+    background-image: url("../../assets/Images/signup.jpg");
+    background-repeat: no-repeat;
+    min-height: 800px;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+
+  }
+  .container1 {
+    right: 0;
+    background-color:white ;
+    padding: 1.5%;
+    margin-top: 1%;
+    position: absolute;
+    margin-right: 25%;
+    padding-top:0%;
+    width: 400px;
+  }
+  .k1{
+    text-align: center;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    
+  }
+.b{
+  border: 7px double lightgreen;
+  background: transparent;
+  color: #0e0d0d;
+  border-radius: 30px;
+}
+.form-control{
+  width:1px ;
+  height: 25px;
+}
+span{
+    color:red;
+}
+button{
+  margin-left: 40%;
+}

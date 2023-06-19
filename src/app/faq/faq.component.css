@@ -1,0 +1,11 @@
+.faq{
+    max-width: 900px;
+    margin-left: 10rem;
+}
+.outer{
+    display: flex;
+}
+.ac{
+    margin-top: 5rem;
+    margin-left: 2rem;
+}

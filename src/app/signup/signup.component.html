@@ -1,0 +1,47 @@
+<app-navbar></app-navbar>
+<div class="bg-img">
+    <div class="container" data-aos="zoom-in">
+      <form   action="/action_page.php" class="container1 b" >
+        <h1 class="k1"><span>R</span>egister <span>H</span>ere</h1>
+       
+       <label for="text"><b>FirstName</b></label>
+        <input class="form-control" type="text" name="UserName"
+         placeholder="Enter First Name" >
+         <label for="text"><b>LastName</b></label>
+         <input class="form-control" type="text" name="UserName"
+          placeholder="Enter Last Name" >
+  
+       <label for="text"><b>Email</b></label>
+        <input class="form-control" type="text" name="email"  placeholder="Enter Email" >
+        <label for="text"><b>Gender</b></label><br>
+        <input type="radio" value="Male" name="gender" checked > Male   
+  <input type="radio" value="Female" name="gender"> Female   
+  <input type="radio" value="Other" name="gender"> Other  <br>
+  <label for="text"><b>Contact</b></label><br>
+  <input class="form-control" type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+  
+      <label>   
+          <b>Licence-Id</b> 
+          </label>   
+          <input class="form-control" type="text" name="Password" placeholder=" Enter driving licence-id" >
+            
+      <label>   
+          <b>ID Proof :  </b>
+          </label>   
+            
+          <select>  
+          <option value="Course">AdharCard</option>  
+          <option value="BCA">Pan Card</option>  
+          <option value="BBA">Vouter Id</option>  
+          
+          </select><br>
+      <label for="email"><b>Address</b></label> 
+      <input type="text"  class="form-control"  placeholder="Enter your address">
+    
+        <label for="psw"><b>Password</b></label>
+        <input class="form-control" type="password" name="Password" placeholder="Enter Password" >
+       
+        <button class="btn btn-dark" (click)="a()">SignUp</button>
+    </form>
+</div>
+  </div>

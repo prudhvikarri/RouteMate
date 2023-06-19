@@ -1,0 +1,42 @@
+.outer{
+    display: flex;
+    padding: 10% 0% 6% 12%;
+    background-color: #A1B2C3;
+}
+form{
+    margin-top: 100px;
+}
+.f{
+    border:4px double #333;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius:0px 100px 0px 100px;
+    padding-top: 20px;
+    background-image: radial-gradient(#444,#A1B2C3);
+    color: #fff;
+}
+.f .a{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+.f a{
+    color: red;
+    cursor:pointer;
+}
+
+@media only screen and (max-width:768px) {
+    img{
+        width:300px;
+    }
+     .f{
+         border-radius:0px 40px 0px 40px;
+         font-size: 13px;
+         max-width: 100%;
+     }
+     .outer{
+        display:flex ;
+        flex-direction: column;
+     }
+}
