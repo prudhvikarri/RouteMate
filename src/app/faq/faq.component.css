@@ -9,3 +9,12 @@
     margin-top: 5rem;
     margin-left: 2rem;
 }
+@media (max-width:1200px){
+    .outer{
+        display: flex;
+        flex-direction: column;
+    }
+    .faq{
+        margin-left: 0;
+    }
+}

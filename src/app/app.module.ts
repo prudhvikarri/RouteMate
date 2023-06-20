@@ -17,6 +17,7 @@ import { ConnectComponent } from './connect/connect.component';
 import { RideoptionsComponent } from './rideoptions/rideoptions.component';
 import { FindrideComponent } from './findride/findride.component';
 import { PostrideComponent } from './postride/postride.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { PostrideComponent } from './postride/postride.component';
     ConnectComponent,
     RideoptionsComponent,
     FindrideComponent,
-    PostrideComponent
+    PostrideComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

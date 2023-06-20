@@ -1,6 +1,16 @@
-
-
-
-<button (click)="a()">post a ride</button>
-<button (click)="b()">find a ride</button>
-<router-outlet></router-outlet>
+<!-- 
+<button >post a ride</button>
+<button >find a ride</button>
+<router-outlet></router-outlet> -->
+<div class="outer">
+    <div class="img">
+      <img [src]="ig" class="float-left" alt="" width="500px" data-aos="fade-right">
+      <div class="m"> <marquee> RETHINK YOUR RIDE REDEFINE YOUR JOURNEY  </marquee> </div>
+    </div>
+    <form class="f" data-aos="fade-left">
+      <div>
+        <button type="button" class="btn btn-danger" (click)="a()">POST A RIDE</button><br>
+        <button type="button" class="btn btn-danger" (click)="b()">FIND A RIDE</button>
+      </div>
+    </form>
+    <div>

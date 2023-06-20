@@ -18,8 +18,12 @@
     max-width: 200px;
     color: #fff;
     margin: 20% 0% 2% 15%;
-    text-shadow: 2px black;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    z-index: 1;
 }
 span{
     color:red;
+}
+button{
+    z-index: 1;
 }

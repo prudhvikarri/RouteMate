@@ -1,0 +1,52 @@
+.outer{
+    display: flex;
+    padding: 15% 0% 6% 12%;
+    background: url(../../assets/Images/login_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+  form{
+    margin-top: 100px;
+  }
+  .f{
+    border:4px double #333;
+    width: 500px;
+    height: 420px;
+    text-align: center;
+    border-radius:0px 100px 0px 100px;
+    padding-top: 20px;
+    color: red;
+    font-family:  'Arial Narrow Bold';
+    font-style: italic;
+    margin-top: 0%;
+    margin-left: 10%;
+    background-color: rgba(242, 244, 247, 0.463);
+  }
+  .f .a{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+  }
+  .f a{
+    color: rgb(3, 36, 121);
+    cursor:pointer;
+  }
+  
+  
+  @media only screen and (max-width:768px) {
+    img{
+        width:250px;
+        margin-left: 0%;
+        margin-right: 15%;
+    }
+     .f{
+         border-radius:0px 40px 0px 40px;
+         font-size: 13px;
+         max-width: 100%;
+     }
+     .outer{
+        display:flex ;
+        flex-direction: column;
+     }
+  }

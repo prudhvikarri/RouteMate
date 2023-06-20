@@ -9,12 +9,14 @@ import { SignupComponent } from './signup/signup.component';
 import { RideoptionsComponent } from './rideoptions/rideoptions.component';
 import { FindrideComponent } from './findride/findride.component';
 import { PostrideComponent } from './postride/postride.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'welcomepage',pathMatch:'full'},
   {path:'welcomepage',component:WelcomepageComponent},
   {path:'login',component:LoginComponent},
   {path:'contact',component:ContactComponent},
+  {path:'about',component:AboutComponent},
   {path:'signup',component:SignupComponent},
   {path:'rideoptions',component:RideoptionsComponent},
   {path:'findride',component:FindrideComponent},

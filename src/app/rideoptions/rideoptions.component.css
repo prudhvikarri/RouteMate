@@ -1,42 +1,39 @@
 .outer{
-    display: flex;
-    padding: 10% 0% 6% 12%;
-    background-color: #A1B2C3;
-}
-form{
-    margin-top: 100px;
-}
-.f{
-    border:4px double #333;
-    width: 400px;
+    display:flex;
+    padding: 23% 0% 6% 12%;
+    /* background-color: #cbd3cb; */
+    background: url(../../assets/Images/banner.png);
+    background-size: cover;
+  }
+  .f{
+    border:4px double #000102;
+    width: 500px;
     height: 300px;
     text-align: center;
     border-radius:0px 100px 0px 100px;
-    padding-top: 20px;
-    background-image: radial-gradient(#444,#A1B2C3);
-    color: #fff;
-}
-.f .a{
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-}
-.f a{
-    color: red;
+    padding-top: 40px;
+    color: #f0efef;
+    margin-left: 50%;
+    margin-top: 0%;
+    background-image: radial-gradient(rgba(0, 238, 255, 0.336),rgba(255, 255, 255, 0.724));
+  }
+  
+  .f button{
+    color: rgb(240, 240, 240);
     cursor:pointer;
-}
-
-@media only screen and (max-width:768px) {
-    img{
-        width:300px;
-    }
-     .f{
-         border-radius:0px 40px 0px 40px;
-         font-size: 13px;
-         max-width: 100%;
+    margin-top: 5%;
+    width:60%;
+    height:20%;
+    padding: 3%;
+  }  
+   .img{
+      position: absolute;
+      top: 30%;
+      left: 5%;
      }
-     .outer{
-        display:flex ;
-        flex-direction: column;
+     .m{
+      font-family:'Lucida Sans';
+      font-style: italic;
+      font-size:150%;
+      color: rgb(9, 9, 9);
      }
-}

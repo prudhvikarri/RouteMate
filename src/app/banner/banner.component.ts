@@ -10,7 +10,7 @@ export class BannerComponent {
     public img="../../assets/Videos/bg1.mp4"
     constructor(private link:Router){}
     ngOnInit(){}
-    c(){
-      this.link.navigateByUrl('/signup')
-    }
+    // c(){
+    //   this.link.navigateByUrl('/signup')
+    // }
 }
