@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ride {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color:#fff;
+  }
+  
+  .ride .title {
+    font-weight: bold;
+  
+  }
+  
+  .ride .details {
+    font-style: italic;
+  }
+  .ride{
+    display: flex;
+    justify-content: space-between;
+  }
+  .b{
+    width:100px;
+    height: 50px;
+    padding: 5px;
+    margin-top:2%;
+  }

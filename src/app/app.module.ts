@@ -18,6 +18,8 @@ import { RideoptionsComponent } from './rideoptions/rideoptions.component';
 import { FindrideComponent } from './findride/findride.component';
 import { PostrideComponent } from './postride/postride.component';
 import { AboutComponent } from './about/about.component';
+import { SuccessComponent } from './success/success.component';
+import { InitialComponent } from './initial/initial.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { AboutComponent } from './about/about.component';
     RideoptionsComponent,
     FindrideComponent,
     PostrideComponent,
-    AboutComponent
+    AboutComponent,
+    SuccessComponent,
+    InitialComponent
   ],
   imports: [
     BrowserModule,

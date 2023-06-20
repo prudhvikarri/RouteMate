@@ -1,0 +1,38 @@
+.image{
+    position: absolute;
+    width: 316px;
+    height: 268px;
+    left: 530px;
+    top: 50px;
+    display: flex;
+}
+.abc{
+    position: absolute;
+    width: 755px;
+    height: 15px;
+    left: 390px;
+    top: 320px;
+    font-family: "Brush Script MT", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 15px;
+    color: #000000;
+}
+.cba{
+    position: absolute;
+    width: 718px;
+    height: 128px;
+    left: 400px;
+    top: 400px;
+    font-family: "Brush Script MT", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 15px;
+    color: #000000;
+}
+button{
+    margin-left: 40%;
+    margin-top:30%; 
+}

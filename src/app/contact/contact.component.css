@@ -1,7 +1,7 @@
 .outer{
     display: flex;
     padding: 15% 0% 6% 12%;
-    background: url(../../assets/Images/login_bg.jpg);
+    background: url(../../assets/Images/connect_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;

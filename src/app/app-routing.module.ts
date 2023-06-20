@@ -10,9 +10,14 @@ import { RideoptionsComponent } from './rideoptions/rideoptions.component';
 import { FindrideComponent } from './findride/findride.component';
 import { PostrideComponent } from './postride/postride.component';
 import { AboutComponent } from './about/about.component';
+import { SuccessComponent } from './success/success.component';
+import { connect } from 'rxjs';
+import { ConnectComponent } from './connect/connect.component';
+import { InitialComponent } from './initial/initial.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'welcomepage',pathMatch:'full'},
+  {path:'',redirectTo:'intial',pathMatch:'full'},
+  {path:'intial',component:InitialComponent},
   {path:'welcomepage',component:WelcomepageComponent},
   {path:'login',component:LoginComponent},
   {path:'contact',component:ContactComponent},
@@ -21,6 +26,8 @@ const routes: Routes = [
   {path:'rideoptions',component:RideoptionsComponent},
   {path:'findride',component:FindrideComponent},
   {path:'postride',component:PostrideComponent},
+  {path:'success',component:SuccessComponent},
+  {path:'connect',component:ConnectComponent},
   {path:'**',component:PagenotfoundComponent}
 ];
 

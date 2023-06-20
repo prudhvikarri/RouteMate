@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./rideoptions.component.css']
 })
 export class RideoptionsComponent {
-      public ig="../../assets/Images/rideopt.png"
+      public ig="../../assets/Images/car.png"
       constructor(private ride:Router){}
       a(){
         this.ride.navigateByUrl('postride')
