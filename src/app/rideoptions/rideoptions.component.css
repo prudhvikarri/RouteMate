@@ -1,9 +1,9 @@
 .outer{
     display:flex;
     padding: 23% 0% 6% 12%;
-    /* background-color: #cbd3cb; */
     background: url(../../assets/Images/banner.png);
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
   }
   .f{
     border:4px double #000102;
@@ -27,13 +27,19 @@
     padding: 3%;
   }  
    .img{
-      position: absolute;
+      /* position: absolute; */
       top: 30%;
       left: 5%;
      }
-     .m{
+     marquee{
       font-family:'Lucida Sans';
       font-style: italic;
       font-size:150%;
       color: rgb(9, 9, 9);
+     }
+     @media (max-width:1200px){
+      .outer{
+        display: flex;
+        flex-direction: column;
+      }
      }

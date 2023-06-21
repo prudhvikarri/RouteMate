@@ -1,4 +1,4 @@
-.container1{
+/* .container1{
     background-color:#A5A5A1;
     display: flex;
 }
@@ -74,21 +74,21 @@ padding-left: 20%;
         width: 300px;
         height: 200px;
     }
-}
+} */
 
 /* section img{
     width: 500px;
     height: 300px;
 } */
-/* section{
-    color: rgb(213, 161, 147);
+section{
+    background-color: rgb(255, 245, 241);   
 }
 .nt1{
     display: flex;
 }
 section .a{
     text-align: center;
-    padding-top: 5%;
+    padding: 5% 5% 0% 0% ;
 }
 section .a p{
     max-width: 80%;
@@ -97,4 +97,20 @@ section .a p{
 section img{
     width:400px;
     height: 300px;
-} */
+    border-radius: 30px;
+}
+@media (max-width:1200px){
+    .nt1{
+        display: flex;
+        flex-direction: column;
+    }
+    section .a{
+        text-align: center;
+        padding: 5%;
+    }
+    section img{
+        width:300px;
+        height: 200px;
+        border-radius: 30px;
+    }
+}
