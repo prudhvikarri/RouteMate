@@ -19,18 +19,25 @@ section {
   .login {
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 5%;
     transform: translate(-50%, -50%);
     width: 350px;
     min-height: 200px;
+    /* border-color:rgb(158,223,180) ; */
     background: linear-gradient(
-      rgba(197, 240, 202, 0.4),
-      rgba(228, 233, 223, 0.2)
+      rgba(2, 6, 2, 0.4),
+      rgba(0, 1, 0, 0.2)
+      
     );
+    /* border: 7px double lightgreen; */
+  background: transparent;
+  color: #0e0d0d;
+  border-radius: 30px;
     backdrop-filter: blur(20px);
     border-radius: 10px;
     padding: 40px;
     box-sizing: border-box;
+    margin-left: 20%;
   }
   .login img {
     margin: 0 auto;

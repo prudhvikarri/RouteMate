@@ -1,9 +1,49 @@
 .outer{
-    background: url(../../assets/Images/banner.png);
+    background: url(../../assets/Images/findride5.avif);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 100%;
+    max-height: 120%;
     max-width: 100%;
+    /* margin-left: 20%; */
+}
+.outlet{
+    margin-left: 30%;
+}
+.outer input{
+    width: 100%;
+        margin-bottom: 20px;
+        margin-left: 120%;
+
+}
+.outer input[type="text"]
+{
+    /* border: none;
+        outline: none; */
+        height: 40px;
+        color: #fff;
+        background: transparent;
+        font-size: 16px;
+        padding-left: 30px;
+        box-sizing: border-box;
+        margin-left: 20%;
+        border-radius: 50px 0px 50px 0px;
+        border:1px solid #fff;
+}
+.outer input[type="text"]:hover
+{
+       color: #42F3FA;
+        border: 1px solid #42F3FA;
+        box-shadow: 0 0 5px rgba(0,255,0,.3),
+         0 0 10px rgba(0,255,0,.2),
+          0 0 15px rgba(0,255,0,.1),
+           0 2px 0 black;
+           border-radius: 50px 0px 50px 0px;
+}
+.outer input[type="text"]:focus{
+    border-bottom: 2px solid #42F3FA
+}
+ span{
+    color: red;
 }
 .button{
     background-color: black;
@@ -15,13 +55,46 @@
     width: 200px;
 }
 .h1{
-    color: #333;
+    color: #fffcfc;
     font-family: Roboto;
+    padding-top: 3%;
+    padding-left: 8%;
+    /* background-color: aquamarine; */
+    padding-right: 6%;
+    /* margin-top: 10%; */
+    
+}
+::placeholder{
+    text-align: center;
+    color: brown;
+    width: 100%;
+    height: 70%;
+    border-end-end-radius: 2rem;
+
 }
 .heading{
-    background-color: #333;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
     color: #fff;
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .outer{
+        background: url(../../assets/Images/findride5.avif);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    ::placeholder{
+        color:#fff;
+        font-size: 0.6rem;
+        text-align:justify;
+        /* margin-left: -50%; */
+    }
 }
