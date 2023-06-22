@@ -1,7 +1,11 @@
+.project{
+    background-color: rgb(170,223,255);
+    padding: 12%;
+}
 .image{
     position: absolute;
-    width: 316px;
-    height: 268px;
+    width: 500px;
+    height: 500px;
     left: 530px;
     top: 50px;
     display: flex;
@@ -12,7 +16,7 @@
     height: 15px;
     left: 390px;
     top: 320px;
-    font-family: "Brush Script MT", cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 700;
     font-size: 52px;
@@ -25,7 +29,7 @@
     height: 128px;
     left: 400px;
     top: 400px;
-    font-family: "Brush Script MT", cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 700;
     font-size: 52px;

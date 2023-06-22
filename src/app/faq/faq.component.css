@@ -1,19 +1,13 @@
 .faq{
-    max-width: 900px;
-    margin-left: 10rem;
-}
-.outer{
-    display: flex;
+    margin-left: 2rem;
+    margin-top: 15px;
+    margin-bottom: 2rem;
 }
 .ac{
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-left: 2rem;
 }
 @media (max-width:1200px){
-    .outer{
-        display: flex;
-        flex-direction: column;
-    }
     .faq{
         margin-left: 0;
     }

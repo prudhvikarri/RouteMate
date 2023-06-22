@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+  public ig="../../assets/Images/login_bg.png"
   constructor(private route:Router){
   }
   a(){

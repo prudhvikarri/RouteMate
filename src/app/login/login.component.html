@@ -1,4 +1,4 @@
-<section >
+<!-- <section >
     <div class="login" >
         <img src="../../assets/Images/avatar.jpg" height="100px" width="100px" style="border-radius: 100px;">
         <h3>Login</h3>
@@ -9,10 +9,57 @@
                 <input  name="Password"  type="password" placeholder="Password"> 
                 <button class="btn btn-dark" (click)="a()">login</button>
               </div> 
-            <p style="color: #b80c43; text-align: center;">Don't have an account? 
-                <a routerLink="/signup" style="color: #fff;"> Sign-Up</a></p>
+            <p style="color: LightCoral; text-align: center;font-weight: bold;
+            font-size: 1.3rem;">Don't have an account? 
+                <a routerLink="/signup" style="color: #fff;
+                "> Sign-Up</a></p>
                 
         </form>
         
     </div>
-    </section>
+    </section> -->
+
+
+    <!-- <app-navbar></app-navbar>
+    <div class="allow">
+        <div class="image"> <img [src]="ig" alt="" width="600px" style="border-radius: 400px;" data-aos="slide-left"></div>
+        <div class="login" >
+           
+            <img src="../../assets/Images/avatar.jpg" height="100px" width="100px" style="border-radius: 100px;">
+            <h3><span>L</span>ogin
+            </h3>
+            
+            <form >
+                <div class="details"> 
+                    <input class='form-control ' name="Email" type="email" placeholder="Email">
+                    <input class='form-control' name="Password"  type="password" placeholder="Password"> 
+                    <button class="btn btn-danger" style="color: white;"(click)="a()">login</button>
+                  </div> 
+                <p style="color: #b80c43; text-align: center;">Don't have an account?  
+                    <a routerLink="/signup" style="color: #110505;">  Sign-Up</a></p>
+                    
+            </form>
+            
+        </div>
+    </div> -->
+
+<app-navbar></app-navbar>
+    <div class="outer">
+        <div class="img">
+          <img [src]="ig" alt="" width="500px" data-aos="fade-right">
+        </div>
+        <form class="f" data-aos="fade-left">
+          <h1><u> Login Here</u></h1>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address/UserName</label>
+            <input type="email" class="form-control a" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email/Username">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control a" id="exampleInputPassword1" placeholder="Password">
+          </div><br>
+          <button type="submit" class="btn btn-primary" (click)="a()">Sign in</button>
+          <p>Don't Have an account yet? <a routerLink="/signup" >Sign up</a></p>
+        </form>
+      </div>

@@ -1,17 +1,19 @@
 .bg-img {
-    background-image: url("../../assets/Images/signup.jpg");
+    /* background-image: url("../../assets/Images/signup.jpg"); */
+    background-color: rgb(170,223,255);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     background-size: cover;
+    display: flex;
   }
   .container{
-    padding-top:5%;
+    padding-top:3%;
     /* padding-bottom: 10%; */
   }
   .container1 {
     width: 500px;
-    margin-left: 50%;
+    margin-left: 33%;
     padding: 1.2%;
   }
   .k1{
@@ -29,8 +31,9 @@
     
   }
 .b{
-  border: 7px double lightgreen;
+  border: 7px double;
   background: transparent;
+  backdrop-filter: blur(50px);
   color: #0e0d0d;
   border-radius: 30px;
 }
@@ -44,13 +47,23 @@ span{
 button{
   margin-left: 40%;
 }
-@media (max-width:768px) {
+@media (max-width:767px) {
   .container1{
     padding: 2%;
     width: 300px;
-    margin-left:10%;
+    margin-left:0%;
   }
   .container{
     padding-top: 15%;
+    padding-bottom: 2%;
+  }
+}
+@media screen and(min-width:768px) and (max-width:991px){
+  .container1{
+    margin-left:0%;
+  }
+  .bg-img{
+    display: flex;
+    flex-direction: column;
   }
 }
