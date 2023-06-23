@@ -1,3 +1,6 @@
+.n{
+    height: 60px;
+}
 nav a{
     color:#333;
     font-weight: bold;
@@ -18,5 +21,8 @@ nav ul a:hover{
 @media (max-width:1200px){
     nav ul a{
         margin-left: 0;
+    }
+    .n{
+        height: auto;
     }
 }

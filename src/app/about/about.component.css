@@ -81,14 +81,20 @@ padding-left: 20%;
     height: 300px;
 } */
 section{
-    background-color: rgb(255, 245, 241);   
+    background-color: rgb(190,220,238);  
+}
+section .z{
+    padding-top: 3%;
+    padding-left: 40%;
+    font-size: 4rem;
 }
 .nt1{
     display: flex;
+    margin-bottom: 40px;
 }
 section .a{
     text-align: center;
-    padding: 5% 5% 0% 0% ;
+    padding: 5% 5% 5% 0% ;
 }
 section .a p{
     max-width: 80%;

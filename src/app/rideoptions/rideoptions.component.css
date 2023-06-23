@@ -1,93 +1,12 @@
-/* .outer{
-    display:flex;
-    padding: 23% 0% 6% 12%;
-    background: url(../../assets/Images/banner.png);
-    background-size: 100% 100%;
-    background-position: center;
-  }
-  .f{
-    border:4px double #000102;
-    width: 500px;
-    height: 300px;
-    text-align: center;
-    border-radius:0px 100px 0px 100px;
-    padding-top: 40px;
-    color: #f0efef;
-    margin-left: 50%;
-    margin-top: 0%;
-    background-image: radial-gradient(rgba(0, 238, 255, 0.336),rgba(255, 255, 255, 0.724));
-  }
-  
-  .f button{
-    color: rgb(240, 240, 240);
-    cursor:pointer;
-    margin-top: 5%;
-    width:60%;
-    height:20%;
-    padding: 3%;
-  }  
-   .img{
-      top: 30%;
-      left: 5%;
-     }
-     marquee{
-      font-family:'Lucida Sans';
-      font-style: italic;
-      font-size:150%;
-      color: rgb(9, 9, 9);
-     }
-     @media (max-width:1200px){
-      .outer{
-        display: flex;
-        flex-direction: column;
-      }
-     } */
-     /* .outer{
-      display:flex;
-      padding:5%;
-      background-color: #cbd3cb;
-      background-size: cover;
-    }
-    .f{
-      border:4px double #000102;
-      width: 500px;
-      height: 300px;
-      text-align: center;
-      border-radius:0px 100px 0px 100px;
-      padding-top: 40px;
-      background-image:-moz-linear-gradient(#d6e1d596,#A1B2C3);
-      color: #f0efef; 
-    }
-    
-    .f button{
-      color: rgb(240, 240, 240);
-      cursor:pointer;
-      margin-top: 5%;
-      width:60%;
-      height:20%;
-      padding: 3%;
-    }  
-       marquee{
-        font-family:'Lucida Sans';
-        font-style: italic;
-        font-size: 5rem;
-        color: rgb(9, 9, 9);
-       }
-       img{
-          width:500px;
-          height: 500px;
-       }
-        */
-
 .outer{
   display: flex;
-  background-color: rgb(170,223,255);
-  padding: 8% 12.2% 6% 12.2% ;
+  background-color: rgb(190,220,238);
+  padding: 8% 25% 6% 12.2% ;
 }
 .outer .f{
-  width:500px;
+  width:800px;
   height: 300px;
-  border: 4px double #333;
+  border: 4px solid #333;
   border-radius:0px 100px 0px 100px;
   margin-top:5%;
 }
@@ -97,7 +16,7 @@
     height: 20%;
 }
 img{
-  width:500px;
+  width:700px;
   height: 500px;
 }
 .outer .img marquee{

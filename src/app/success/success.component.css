@@ -40,3 +40,9 @@ button{
     margin-left: 40%;
     margin-top:30%; 
 }
+@media (max-width:1200px){
+    .project{
+        background-color: rgb(170,223,255);
+        padding: 50%;
+    }
+}

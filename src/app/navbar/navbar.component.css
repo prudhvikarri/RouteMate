@@ -1,9 +1,13 @@
+.n{
+    background:rgb(5, 51, 81);
+    height: 70px;
+}
 nav a{
-    color:#333;
+    color:#fff;
     font-weight: bold;
 }
 nav ul a{
-    color:#333; 
+    color:#fff; 
     font-weight: bold;
     margin-left:30px;
     padding: 10px;
@@ -18,5 +22,8 @@ nav ul a:hover{
 @media (max-width:1200px){
     nav ul a{
         margin-left: 0;
+    }
+    .n{
+        height: auto;
     }
 }

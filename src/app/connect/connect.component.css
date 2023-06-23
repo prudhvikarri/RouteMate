@@ -10,7 +10,7 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     margin-left: 0%;
-    background-color: #f3e5b4;
+    background-color: rgb(190,220,238);
     /* color:#fff; */
     display: flex;
     justify-content: space-between;
